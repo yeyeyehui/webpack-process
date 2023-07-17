@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="FBMiVvAxljsPiwA-6oAV" name="第 1 页">
+        <mxGraphModel dx="1924" dy="3453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="初始化过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1809" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="初始化Compiler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1669" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="加载所有插件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1529" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="run方法开始编译" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1389" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Loader转换" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1249" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="编译模块并分析依赖模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-1109" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="递归编译依赖模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-969" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="组装Chunk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-829" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="生成bundle文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-689" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="写入文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#4D4D4D;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="-549" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
