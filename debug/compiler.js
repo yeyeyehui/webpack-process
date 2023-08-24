@@ -9,6 +9,7 @@ const { SyncHook } = require("tapable");
 
 // 引入自定义的Complication模块
 const Complication = require("./complication");
+const { log } = require("console");
 
 // 这里是存储webpack核心方法的地方，方法层
 class Compiler {
@@ -41,7 +42,7 @@ class Compiler {
       for (let filename in assets) {
         // 获取输出文件的绝对路径，path.posix跨平台路径，win\, mac是/
         let filePath = path.posix.join(this.options.output.path, filename);
-
+console.log(assets, 'assets');
         fs.writeFileSync(filePath, assets[filename], "utf-8");
       }
 
