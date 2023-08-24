@@ -93,20 +93,20 @@ if (request.startsWith("!!")) {
 function resolveLoader(loader) {
   return path.resolve(
     __dirname,
-    "../loaders-chain",
+    "../loaders",
     (loader.loader ? loader.loader : loader) + ".js"
   );
 }
 
 // [
-//   '/webpack-process/loaders-chain/post1-loader.js',
-//   '/webpack-process/loaders-chain/post2-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/inline1-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/inline2-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/normal1-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/normal2-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/pre1-loader.js',
-//   '/Users/yehui/Desktop/github/webpack-process/loaders-chain/pre2-loader.js'
+//   '/webpack-process/loaders/post1-loader.js',
+//   '/webpack-process/loaders/post2-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/inline1-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/inline2-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/normal1-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/normal2-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/pre1-loader.js',
+//   '/Users/yehui/Desktop/github/webpack-process/loaders/pre2-loader.js'
 // ]
 // 将 loaders 数组中的 loader 转换成绝对路径
 let resolvedLoaders = loaders.map(resolveLoader);
