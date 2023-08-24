@@ -267,7 +267,7 @@ function iterateNormalLoaders(
   currentLoader.normalExecuted = true;
 
   // 根据 loader 的 raw 属性将传入的参数转换为 buffer 类型或者 string 类型
-  convertArgs(args, currentLoader.raw);
+  // convertArgs(args, currentLoader.raw);
 
   // 执行 normal 函数，将返回值传入下一次迭代
   runSyncOrAsync(fn, loaderContext, args, (err, ...returnArgs) => {

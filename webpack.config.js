@@ -11,13 +11,13 @@ module.exports = {
   devtool: false,
 
   entry: {
-    entry1: "./src/entry1.js",
-    entry2: "./src/entry2.js",
+    entry1: "../src/entry1.js",
+    entry2: "../src/entry2.js",
   },
 
   output: {
     path: resolve("./dist"),
-    filename: "[name].js",
+    filename: "../[name].js",
   },
 
   resolve: {
